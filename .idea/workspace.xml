@@ -2,8 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ffd9434-f3d6-4aa7-af7f-4d480d53b22d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/blog_war.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/blog_war_exploded.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/blog.iml" afterPath="$PROJECT_DIR$/blog.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arocketman/github/BlogApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/arocketman/github/BlogApplication.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arocketman/github/Tester.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/123.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar.original" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.war.original" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/com/arocketman/github/BlogApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/com/arocketman/github/CompanyDTO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/com/arocketman/github/Tester.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/com/arocketman/github/controllers/CompanyController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/com/arocketman/github/controllers/HomeController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/com/arocketman/github/entities/Address.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/com/arocketman/github/entities/Company.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/com/arocketman/github/entities/RegionDTO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/com/arocketman/github/repositories/CompanyRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/classes/com/arocketman/github/service/CompanyService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/activation-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/aopalliance-repackaged-2.5.0-b42.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/cdi-api-2.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.3.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/groovy-2.4.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/gson-2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-core-5.0.12.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.0.12.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.3.5.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/hk2-api-2.5.0-b32.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/hk2-locator-2.5.0-b42.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/hk2-utils-2.5.0-b42.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jandex-2.0.0.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.21.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.el-api-3.0.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.inject-2.5.0-b32.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.interceptor-api-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.json-1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.json-api-1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.json.bind-api-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.mail-api-1.5.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.transaction-api-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-api-2.2.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-core-2.2.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-impl-2.2.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jaxrs-ri-2.26.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-client-2.25.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-common-2.25.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-2.25.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-core-2.25.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-guava-2.25.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-hk2-2.26.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-media-jaxb-2.25.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-media-json-binding-2.26.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-media-sse-2.26.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jersey-server-2.25.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jjwt-0.6.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.1.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/mail-1.4.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.44.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/ognl-3.0.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aspects-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-1.5.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-1.5.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-1.5.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-1.5.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-jpa-1.5.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-1.5.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-1.5.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-thymeleaf-1.5.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-1.5.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-1.5.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.13.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-jpa-1.11.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-2.1.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-layout-dialect-1.4.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-spring4-2.1.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.5.15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-jdbc-8.5.15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-juli-8.5.15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/unbescape-1.1.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT/WEB-INF/lib/yasson-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arocketman/github/BlogApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/arocketman/github/BlogApplication.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arocketman/github/Tester.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +143,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/arocketman/github/CompanyDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -48,8 +182,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="69" column="24" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="69" selection-end-column="24" />
+            <state relative-caret-position="73">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,9 +212,11 @@
       <file leaf-file-name="BlogApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/arocketman/github/BlogApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +233,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>post</find>
       <find>companyR</find>
       <find>Long</find>
       <find>dist</find>
@@ -115,7 +250,6 @@
       <find>star</find>
       <find>tom</find>
       <find>starte</find>
-      <find>web</find>
       <find>starter-tomca</find>
       <find>prov</find>
       <find>javax</find>
@@ -127,6 +261,8 @@
       <find>tomcat</find>
       <find>jer</find>
       <find>maven</find>
+      <find>pack</find>
+      <find>web</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,11 +330,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="2" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="335" />
+    <option name="y" value="20" />
+    <option name="width" value="935" />
+    <option name="height" value="610" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -372,13 +514,22 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="U:\Рабочий стол\SpringBlog-master123\src\main\resources\templates\assets" />
+      <recent name="U:\Рабочий стол\SpringBlog-master123\src\main\java\com\arocketman\github\entities" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.arocketman.github" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.arocketman.github.service" />
+      <recent name="com.arocketman.github.repositories" />
+      <recent name="com.arocketman.github.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="U:\Рабочий стол\SpringBlog-master123\src\main\resources\templates" />
@@ -386,15 +537,6 @@
       <recent name="U:\Рабочий стол\SpringBlog-master123\src\main\resources" />
       <recent name="U:\Рабочий стол\SpringBlog-master123\src\main\java\com\arocketman\github\pojos" />
       <recent name="U:\Рабочий стол\SpringBlog-master123\src\main\java\com\arocketman\github/config" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.arocketman.github.service" />
-      <recent name="com.arocketman.github.repositories" />
-      <recent name="com.arocketman.github.entities" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="U:\Рабочий стол\SpringBlog-master123\src\main\resources\templates\assets" />
-      <recent name="U:\Рабочий стол\SpringBlog-master123\src\main\java\com\arocketman\github\entities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -605,20 +747,19 @@
       <workItem from="1533689919839" duration="3804000" />
       <workItem from="1533768935695" duration="7975000" />
       <workItem from="1533865807820" duration="1339000" />
-      <workItem from="1533879476523" duration="3277000" />
+      <workItem from="1533879476523" duration="5414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200098000" />
+    <option name="totallyTimeSpent" value="202235000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="335" y="20" width="935" height="610" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24342857" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -633,10 +774,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43723848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28441754" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4297143" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -699,22 +840,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/arocketman/github/entities/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -759,7 +884,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,7 +942,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -863,7 +992,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -895,7 +1026,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -919,7 +1052,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -943,7 +1078,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,7 +1112,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -999,7 +1138,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,7 +1164,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,7 +1190,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,26 +1228,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arocketman/github/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arocketman/github/CompanyDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/arocketman/github/BlogApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="69" column="24" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="69" selection-end-column="24" />
+        <state relative-caret-position="73">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1118,7 +1281,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1161,12 +1323,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>blog</last-edited>
+          <last-edited>Spring|blog</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1185,5 +1346,10 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="package" />
+    <option value="clean" />
   </component>
 </project>
