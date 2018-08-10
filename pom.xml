@@ -57,7 +57,7 @@
 
 
 
-        <dependency>
+      <!--  <dependency>
             <groupId>org.glassfish.jersey.bundles</groupId>
             <artifactId>jaxrs-ri</artifactId>
             <version>2.26</version>
@@ -67,7 +67,7 @@
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
             <version>0.6.0</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
