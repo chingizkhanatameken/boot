@@ -194,7 +194,7 @@ public class CompanyController {
 
     public List<Company> getCompanyByName(@PathVariable String name){
 
-        return companyRepository.findName(name);
+        return companyRepository.findByName(name);
     }
 
 

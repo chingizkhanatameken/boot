@@ -40,7 +40,7 @@ public interface CompanyRepository extends JpaRepository<Company,String> {
     //  if (@Param("region") == "")
     @Query(NAME)
     List<Company> findName(@Param("name") String name);
-
+    List<Company> findByName(String name);
     public static final String FIND_PHONE = "select u from Company u where u.phone like %:#{#phone}%";
     //  if (@Param("region") == "")
     @Query(FIND_PHONE)
