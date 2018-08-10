@@ -5,16 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
-@SpringBootApplication(scanBasePackages={
-		"com.arocketman.github.config", "com.arocketman.github.controllers", "com.arocketman.github.entities", "com.arocketman.github.repositories", "com.arocketman.github.service"})
-public class BlogApplication extends SpringBootServletInitializer{
+@SpringBootApplication
+public class BlogApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BlogApplication.class, args);
 	}
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(BlogApplication.class);
-	}
+
 }
