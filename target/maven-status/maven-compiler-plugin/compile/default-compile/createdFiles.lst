@@ -5,5 +5,6 @@ com\arocketman\github\controllers\CompanyController.class
 com\arocketman\github\controllers\HomeController.class
 com\arocketman\github\entities\Address.class
 com\arocketman\github\BlogApplication.class
+com\arocketman\github\config\Configs.class
 com\arocketman\github\entities\Company.class
 com\arocketman\github\CompanyDTO.class
