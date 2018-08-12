@@ -141,7 +141,7 @@ public class CompanyController {
             @RequestParam("production") String production
     ){
         String regionQuery = "u.regionID like '" + regionID + "%'";
-        String addressQuery = "u.addressID = " + addressID;
+        String addressQuery = "u.addressID like '" + addressID + "%'";
         String nameQuery =  "u.name like '%" + name + "%'";
          String otraslQuery =  "u.otrasl like '%" + otrasl + "%'";
          String productionQuery =  "u.production like '%" + production + "%'";
