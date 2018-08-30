@@ -4,6 +4,7 @@ package com.arocketman.github.controllers;
 import com.arocketman.github.entities.Address;
 import com.arocketman.github.entities.Company;
 //import com.arocketman.github.repositories.CompanyDao;
+import com.arocketman.github.entities.OtraslDTO;
 import com.arocketman.github.entities.RegionDTO;
 import com.arocketman.github.repositories.CompanyRepository;
 import com.arocketman.github.service.CompanyService;
@@ -113,10 +114,7 @@ public class CompanyController {
     }
 
 
-    @GetMapping(value="company/id/{id}")
-    public Optional<Company> getCompanyById(@PathVariable int id){
-        return companyService.getCompany(id);
-    }
+
     public static Connection connection = null;
     @GetMapping(value="company/region/{region}")
 
@@ -124,6 +122,12 @@ public class CompanyController {
 
         return companyRepository.findRegion(region);
     }
+
+     @GetMapping(value="company/id/{id}")
+     public List<Company> getCompanyById(@PathVariable int id){
+         System.out.println("asdasdasd   " + id);
+         return companyRepository.findCompanyId(id);
+     }
     @GetMapping(value="company/address/{addressID}")
     public List<Company> getCompanyByAddress(@PathVariable String addressID){
         System.out.println("asdasdasd   " + addressID);
@@ -242,6 +246,15 @@ public class CompanyController {
 
 
          return companyRepository.findCompanyRegions();
+
+     }
+
+
+     @RequestMapping(value = "/company/otrasles", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+     public List<OtraslDTO> getCompanyOtrasl() {
+
+
+         return companyRepository.findCompanyOtrasl();
 
      }
 

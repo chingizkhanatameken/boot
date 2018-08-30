@@ -5,6 +5,7 @@ import com.arocketman.github.entities.Address;
 import com.arocketman.github.entities.Company;
 import com.arocketman.github.controllers.CompanyController;
 
+import com.arocketman.github.entities.OtraslDTO;
 import com.arocketman.github.entities.RegionDTO;
 import org.apache.tomcat.util.bcel.Const;
 import org.aspectj.apache.bcel.classfile.Constant;
@@ -31,6 +32,11 @@ public interface CompanyRepository extends JpaRepository<Company,String> {
     //  if (@Param("region") == "")
     @Query(FIND_ADDRESS_ID)
     List<Company> findAddressID(@Param("addressID") String addressID);
+
+    public static final String FIND_COMPANY_ID = "select u from Company u where u.id  = :#{#id}";
+    //  if (@Param("region") == "")
+    @Query(FIND_COMPANY_ID)
+    List<Company> findCompanyId(@Param("id") int id);
 
     public static final String FIND_BIN = "select u from Company u where u.bin = :#{#bin}";
     @Query(FIND_BIN)
@@ -72,10 +78,16 @@ public interface CompanyRepository extends JpaRepository<Company,String> {
     @Query(value = FIND_BY_FILTERS, nativeQuery = true)
     List<Company> findCompanyByFilters(@Param("mainQuery") String mainQuery);
 
+
     public static final String FIND_DISTINCT_REGION =  "select distinct new com.arocketman.github.entities.RegionDTO( p.regionID, p.region) from Company p  order by p.regionID";
 
     @Query(FIND_DISTINCT_REGION)
     List<RegionDTO> findCompanyRegions();
+
+    public static final String FIND_DISTINCT_OTRASL =  "select distinct new com.arocketman.github.entities.OtraslDTO(p.otrasl) from Company p  where p.otrasl not like '#N/A'  order by p.otrasl";
+
+    @Query(FIND_DISTINCT_OTRASL)
+    List<OtraslDTO> findCompanyOtrasl();
 
     public static final String FIND_ADDRESS_BY_REGION =  "select u from Address u where u.id  like  :#{#id}%";
 

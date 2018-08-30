@@ -17,16 +17,6 @@ public class CompanyService {
     @Autowired
     private CompanyRepository companyRepository;
    // @Autowired
-    public Optional<Company> getCompany(int id){
-        return companyRepository.findById(id);
-    }
-   /* public Optional<Company> getCompanyByRegion(String region){
-        return regionRepository.findByRegion(region);
-    }*/
-    /*public Optional<Company> getCompanyRegion(){
-        return companyRepository.findRegion();
-    }*/
-
 
     public List<Company> getAllCompanies() {
         return companyRepository.findAll();
